@@ -1,0 +1,33 @@
+.nav-item ul > li.drop-down > a::after {
+    transform: translateY(2px);
+    content: "";
+  }
+  .angel {
+    font-size: 11px;
+  }
+  .dropdown-home ul {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    min-width:251px;
+    padding:15px 0px;
+    z-index: 1;
+    box-shadow:0 30px 70px 6px rgba(11,6,70,.08);
+    transition: all .3s ease-in-out;
+  }
+  .dropdown-home li:hover >ul{
+      opacity:1;
+      visibility:visible;
+      background-color:white;
+  }
+  .nav-item ul>li .mega-menu{
+    
+    min-width:800px;
+    z-index: 1;
+    box-shadow:0 30px 70px 6px rgba(11,6,70,.08);
+    transition: all .3s ease-in-out;
+  }
+  
+  .nav-item  ul>li .mega-menu li{
+    width:200px;
+  }

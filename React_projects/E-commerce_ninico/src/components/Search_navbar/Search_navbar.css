@@ -1,0 +1,36 @@
+.home-dropdown:hover .angelgown{
+    rotate: calc(180deg);
+    transition:0.5s;
+}
+.angelgown{
+    rotate: calc(0deg);
+    transition:1s;
+}
+.home-dropdown { 
+    position: relative; 
+    display: inline-block; 
+}
+.home-content { 
+    display: none; 
+    position: absolute; 
+    width: 140px;  
+    right:0%;
+    z-index: 9;  
+    top: 40px; 
+    box-shadow:0 30px 70px 6px rgba(11,6,70,.08);
+    transition: all .3s ease-in-out;
+} 
+ 
+ .home-content ul li a{ 
+    border-radius: 5px; 
+    color: black; 
+    line-height: 35px; 
+    display: block; 
+}  
+ 
+.home-dropdown:hover button { 
+    color: black 
+}
+.home-dropdown:hover .home-content { 
+    display: block; 
+}

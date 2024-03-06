@@ -1,0 +1,45 @@
+.menu ul{
+    margin:20px 0 0 0;
+    opacity:0;
+    visibility:hidden;
+    position:absolute;
+    z-index:1;
+    transition: all .3s ease-in-out;
+ }
+ .menu li{
+     position:relative;
+     border:1px solid whit;
+ } 
+ .menu li:hover > ul{
+     opacity:1;
+     visibility:visible;
+     margin-left:1px;
+ }
+ .menu  ul{
+     top:-50px;
+     left:184px;
+     margin-left: 50px;
+ }
+ .menu ul a{
+   padding:10px;
+   width:200px;
+   display:block;
+   white-space:nowrap;
+   float:none;
+ }
+ 
+ .daily-offer a::after{
+     content: "";
+     position: absolute;
+     bottom: -5px;
+     height: 1px;
+     width: 100%;
+     left: 0;
+     background-color: #d51243;
+     transition: 0.3s;
+     transition-timing-function: ease-in-out;
+     transform: scalex(0);
+ }
+ .daily-offer a:hover::after{
+  transform: scalex(1);
+ }

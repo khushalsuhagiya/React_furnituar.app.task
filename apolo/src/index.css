@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+ .btn{
+    @apply bg-slate-200 p-2 mx-2 
+ }
+}
+
+.name{
+    @apply bg-blue-600 p-2 mx-2
+}
+
+
+
+.Name{
+    @apply bg-green-500 p-2 mx-2
+}

@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .categories6 {
+        @apply font-semibold absolute top-0 right-0 bg-white shadow-xl shadow-slate-200 rounded-full text-[#d51243] w-8 h-8 text-center pt-2 text-xs transition ease-in-out duration-1000 group-hover:text-white group-hover:bg-[#d51243]
+    }
+}
+
+@layer components{
+
+    .pro_addicon {
+        @apply bg-white p-1.5 md:mx-12 sm:mx-16 xs:mx-10 mx-28 rounded-md space-x-3 text-[#999] shadow-sm shadow-[#999] text-sm transition duration-700 ease-in-out group-hover:-translate-y-6
+    }
+
+    .img_info {
+        @apply text-[15px] font-normal transition ease-in-out duration-1000 hover:text-[#d51243] cursor-pointer text-[#777]
+    }
+
+    .star {
+        @apply text-[#d51243]
+    }
+
+    .img_rating_area {
+        @apply lg:top-[400px] md:top-[440px] sm:top-[490px] xs:top-[380px] top-[550px]
+    }
+
+    .product_4icon {
+        @apply lg:top-28 md:top-32 sm:top-40 xs:top-32 top-52
+    }
+}
