@@ -73,24 +73,24 @@ const Search_navbar = () => {
                             </div>
                             {/* dropdown USD,YEAN,EURO */}
                             <div className="col-span-1 xl:inline lg:inline md:hidden hidden ">
-                                <select className="border py-3 text-lg w-20 rounded-md">
+                                <select className="border py-4 text-lg w-24 rounded-md">
                                     <option value="" >USD </option>
                                     <option value="">YEAN </option>
                                     <option value="">EURO</option>
                                 </select>
                             </div>
                             <div className="col-span-1">
-                                <div className="flex  mt-3  justify-end  w-28 ">
+                                <div className="flex  mt-3  justify-end  w-28 ml-7 ">
                                     <div className="relative text-xl">
                                         <i class="fa-solid fa-cart-shopping"></i>
                                         <div className=" px-1 rounded-full text-xs w-4  text-white absolute -top-1 -right-1 bg-[#D51243]">0</div>
                                     </div>
 
-                                    <div className="ml-4 text-xl">
+                                    <div className="ml-5 text-xl">
                                         <i class="fa-regular fa-user"></i>
                                     </div>
 
-                                    <div className=" ml-3 relative text-xl"  >
+                                    <div className=" ml-5 relative text-xl"  >
                                         <i class="fa-regular fa-heart"></i>
                                         <div className="px-1 rounded-full text-xs w-4 text-white absolute -top-0 -right-2.5 bg-[#D51243]">0</div>
                                     </div>

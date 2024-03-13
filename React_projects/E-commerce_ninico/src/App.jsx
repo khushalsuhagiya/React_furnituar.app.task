@@ -1,11 +1,21 @@
 import React from 'react'
 import Wooden_home from './pages/home/Wooden_home'
-import Popular_product from './components/Shop_ditails/Product_ditails'
+
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import Shop from './pages/shop/shop'
+import { Sign_in } from './pages/shop/Sign_in'
 
 const App = () => {
   return (
     <>
-      <Wooden_home/>
+    <BrowserRouter>
+      <Routes>
+        {/* <Route path='/' element={<Wooden_home/>}></Route> */}
+        <Route path='/shop' element={<Shop/>}></Route>
+        <Route path='/sign in' element={<Sign_in/>}></Route>
+
+      </Routes>
+    </BrowserRouter>
     </>
   )
 }

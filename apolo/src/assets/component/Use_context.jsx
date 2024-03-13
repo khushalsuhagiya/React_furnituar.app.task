@@ -1,5 +1,4 @@
 import React from 'react'
-import { useContext } from 'react'
 import Component_A from './Component_A'
 
 const Use_Context = ({name}) => {

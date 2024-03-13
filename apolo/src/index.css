@@ -4,7 +4,7 @@
 
 @layer components {
  .btn{
-    @apply bg-slate-200 p-2 mx-2 
+    @apply bg-red-500 p-5 text-white font-semibold text-2xl border border-black
  }
 }
 

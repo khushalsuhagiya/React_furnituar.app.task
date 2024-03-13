@@ -23,10 +23,10 @@ import asset34 from "../../assets/asset 34.jpeg";
 const Popular_product = () => {
   return (
     <>
-      <div className="main_bg pb-12 rounded-md hover:bg-white hover:shadow-lg shadow-slate-200 p-2.5 ">
+      <div className="main_bg pb-12 rounded-md hover:bg-white hover:shadow-lg shadow-slate-200 p-6 ">
         <div className="img_area outer relative  ">
           <img src={asset15} alt="" />
-          <div className="group inner absolute top-0 left-0 hidden ">
+          <div className="group inner absolute top-0 left-0 hidden">
             <img src={asset16} alt="" />
 
             <div className=" product_4icon  absolute left-0 right-0 text-center ">
@@ -95,7 +95,7 @@ const Popular_product = () => {
         </div>
       </div>
 
-      <div className=" main_bg pb-12 rounded-md  hover:bg-white hover:shadow-lg shadow-slate-200 p-2.5 ">
+      <div className=" main_bg pb-12 rounded-md  hover:bg-white hover:shadow-lg shadow-slate-200 p-6 ">
         <div className="img_area outer relative  ">
           <img src={asset17} alt="" />
           <div className="group inner absolute top-0 left-0 hidden   ">
@@ -167,7 +167,7 @@ const Popular_product = () => {
         </div>
       </div>
 
-      <div className=" main_bg pb-12 rounded-md  hover:bg-white hover:shadow-lg shadow-slate-200 p-2.5 ">
+      <div className=" main_bg pb-12 rounded-md  hover:bg-white hover:shadow-lg shadow-slate-200 p-6 ">
         <div className="img_area outer relative  ">
           <img src={asset19} alt="" />
           <div className="group inner absolute top-0 left-0 hidden   ">
@@ -239,7 +239,7 @@ const Popular_product = () => {
         </div>
       </div>
 
-      <div className=" main_bg pb-12 rounded-md hover:bg-white hover:shadow-lg shadow-slate-200 p-2.5 ">
+      <div className=" main_bg pb-12 rounded-md hover:bg-white hover:shadow-lg shadow-slate-200 p-6 ">
         <div className="img_area outer relative  ">
           <img src={asset21} alt="" />
           <div className="group inner absolute top-0 left-0 hidden   ">
@@ -311,7 +311,7 @@ const Popular_product = () => {
         </div>
       </div>
 
-      <div className=" main_bg pb-12 rounded-md hover:bg-white hover:shadow-lg shadow-slate-200 p-2.5 ">
+      <div className=" main_bg pb-12 rounded-md hover:bg-white hover:shadow-lg shadow-slate-200 p-6 ">
         <div className="img_area outer relative  ">
           <img src={asset23} alt="" />
           <div className="group inner absolute top-0 left-0 hidden   ">
@@ -383,7 +383,7 @@ const Popular_product = () => {
         </div>
       </div>
 
-      <div className=" main_bg pb-12 rounded-md hover:bg-white hover:shadow-lg shadow-slate-200 p-2.5 ">
+      <div className=" main_bg pb-12 rounded-md hover:bg-white hover:shadow-lg shadow-slate-200 p-6 ">
         <div className="img_area outer relative  ">
           <img src={asset25} alt="" />
           <div className="group inner absolute top-0 left-0 hidden   ">
@@ -455,7 +455,7 @@ const Popular_product = () => {
         </div>
       </div>
 
-      <div className=" main_bg pb-12  rounded-md hover:bg-white hover:shadow-lg shadow-slate-200 p-2.5 ">
+      <div className=" main_bg pb-12  rounded-md hover:bg-white hover:shadow-lg shadow-slate-200 p-6 ">
         <div className="img_area outer relative  ">
           <img src={asset27} alt="" />
           <div className="group inner absolute top-0 left-0 hidden   ">
@@ -527,7 +527,7 @@ const Popular_product = () => {
         </div>
       </div>
 
-      <div className=" main_bg pb-12  rounded-md hover:bg-white hover:shadow-lg shadow-slate-200 p-2.5 ">
+      <div className=" main_bg pb-12  rounded-md hover:bg-white hover:shadow-lg shadow-slate-200 p-6 ">
         <div className="img_area outer relative  ">
           <img src={asset29} alt="" />
           <div className="group inner absolute top-0 left-0 hidden   ">
@@ -599,7 +599,7 @@ const Popular_product = () => {
         </div>
       </div>
 
-      <div className=" main_bg pb-12 rounded-md hover:bg-white hover:shadow-lg shadow-slate-200 p-2.5 ">
+      <div className=" main_bg pb-12 rounded-md hover:bg-white hover:shadow-lg shadow-slate-200 p-6 ">
         <div className="img_area outer relative  ">
           <img src={asset31} alt="" />
           <div className="group inner absolute top-0 left-0 hidden   ">
@@ -671,7 +671,7 @@ const Popular_product = () => {
         </div>
       </div>
 
-      <div className=" main_bg pb-12  rounded-md hover:bg-white hover:shadow-lg shadow-slate-200 p-2.5 ">
+      <div className=" main_bg pb-12  rounded-md hover:bg-white hover:shadow-lg shadow-slate-200 p-6 ">
         <div className="img_area outer relative  ">
           <img src={asset33} alt="" />
           <div className="group inner absolute top-0 left-0 hidden   ">

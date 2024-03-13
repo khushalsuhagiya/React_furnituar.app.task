@@ -2,6 +2,7 @@
 import Welcome from '../../components/welcome/Welcome'
 import Search_navbar from '../../components/Search_navbar/Search_navbar'
 import Homenavbar from '../../components/Search_navbar/Homenavbar'
+import Footer from '../../components/Footer/Footer'
 
 import hello from '../../assets/asset 3.jpeg'
 import hi from '../../assets/asset 4.jpeg'
@@ -34,6 +35,72 @@ import asset14 from '../../assets/asset 14.svg'
 import asset75 from '../../assets/asset 75.png'
 
 
+
+import asset76 from '../../assets/asset 76.jpeg'
+import asset77 from '../../assets/asset 77.jpeg'
+import asset78 from '../../assets/asset 78.jpeg'
+import asset79 from '../../assets/asset 79.jpeg'
+import asset80 from '../../assets/asset 80.jpeg'
+import asset81 from '../../assets/asset 81.jpeg'
+
+
+export function Slides() {
+  return (
+    <>
+      <Swiper
+        slidesPerView={6}
+        spaceBetween={25}
+        pagination={{
+          clickable: true,
+        }}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        breakpoints={{
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+          },
+
+          576: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+          },
+          1000: {
+            slidesPerView: 4,
+            spaceBetween: 10,
+          },
+          1200: {
+            slidesPerView: 5,
+            spaceBetween: 10,
+          },
+          1399: {
+            slidesPerView: 6,
+            spaceBetween: 10,
+          },
+        }}
+        modules={[Autoplay]}
+      >
+        <SwiperSlide><img src={asset76} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={asset77} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={asset78} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={asset79} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={asset80} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={asset81} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={asset76} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={asset77} alt="" /></SwiperSlide>
+      </Swiper>
+    </>
+  );
+}
+
+
+
 const Wooden_home = () => {
   return (
     <div>
@@ -41,10 +108,11 @@ const Wooden_home = () => {
       <Search_navbar />
       <Homenavbar />
 
-      <div className="container mx-auto px-7">
+
+      <div className="container mx-auto px-8">
         <div className="row">
           <div className="grid grid-cols-12 gap-5">
-            <div className="lg:col-span-8 md:col-span-8 sm:col-span-12 col-span-12 h-[450px] w-[730px]">
+            <div className="lg:col-span-8 md:col-span-8 sm:col-span-12 col-span-12 h-[437 px] w-[730px]">
               <Swiper
                 spaceBetween={3}
                 centeredSlides={true}
@@ -71,7 +139,7 @@ const Wooden_home = () => {
                   <img
                     src={pencil}
                     alt=""
-                    className=" lg:min-h-38 md:min-h-40 rounded-md h-[210px] w-[300px]"
+                    className=" lg:min-h-38 md:min-h-40 rounded-md"
                   />
                   <div className="banner_img_info absolute top-0 left-0 p-5">
                     <span className="sub_class text-xl text-[#d51243]">
@@ -88,14 +156,14 @@ const Wooden_home = () => {
                   <img
                     src={spoon}
                     alt=""
-                    className="mt-8 lg:min-h-38 md:min-h-40 rounded-md h-[210px] w-[300px] "
+                    className="mt-8 lg:min-h-38 md:min-h-40 rounded-md"
                   />
                   <div className="banner_img_info absolute top-0 left-0 p-6">
                     <span className="sub_class text-xl text-[#d51243]">
                       Popular
                     </span>
                     <h4 className=" font-semibold  text-xl">
-                      Energy With our newest collection
+                      Energy With our <br />newest collection
                     </h4>
                   </div>
                 </div>
@@ -103,7 +171,7 @@ const Wooden_home = () => {
             </div>
 
             <section className="category_area pt-20">
-              <div className="container mx-auto px-2">
+              <div className="container mx-auto px-8">
                 <div className="row flex items-center">
                   <div className="grid grid-cols-12">
                     <div className="top_cat_section mb-10 ">
@@ -121,7 +189,7 @@ const Wooden_home = () => {
                     </div>
                   </div>
                 </div>
-                <div className=" flex w-[1090px] justify-between pb-11">
+                <div className=" flex w-[1090px] justify-around pb-11">
                   <div className="category text-center  border-0 border-r-2 border-gray-100 pr-5">
                     <div className="group relative cat_icon mb-5  bg-slate-50 rounded-full h-32 w-32 flex justify-center items-center ">
                       <img src={asset9} alt="" />
@@ -195,7 +263,7 @@ const Wooden_home = () => {
           <hr className='w-full border border-gray-100 my-8 ' />
 
           <section>
-            <div className="container mx-auto px-2">
+            <div className="container mx-auto px-8">
               <div className="row mt-28">
                 <div className="grid grid-cols-12">
                   <div className="sm:col-span-6 col-span-12  ">
@@ -216,7 +284,7 @@ const Wooden_home = () => {
 
                   <div className="sm:col-span-6 col-span-12 ">
                     <div className="product_nav flex sm:justify-end sm:pb-0 pb-3">
-                      <nav className="space-x-10 text-[17px] font-semibold">
+                      <nav className="space-x-10 text-[15px] font-semibold">
                         <button className="text-[#d51243] underline">All</button>
                         <button>Popular</button>
                         <button>On sale</button>
@@ -259,7 +327,7 @@ const Wooden_home = () => {
                           <del className="text-[#adadad] ">$59.00</del>
                         </div>
                         <div className="product_text mb-[30px]">
-                          <h4 className="title mb-3 lg:text-[50px] md:text-2xl sm:text-[50px]  text-2xl text-black font-semibold tracking-tight">
+                          <h4 className="title mb-3 lg:text-[40px] md:text-xl sm:text-[30px]  text-xl text-black font-semibold tracking-tight">
                             <a href="/">Pro2 Abstract Folded Pots</a>
                           </h4>
                           <p className="text-[#777] lg:text-[18px] text-[17px] lg:leading-6 md:leading-5">
@@ -278,7 +346,6 @@ const Wooden_home = () => {
                         </div>
                         <div className="product_count flex items-center">
                           <div className="count">
-
                           </div>
                         </div>
                       </div>
@@ -288,8 +355,26 @@ const Wooden_home = () => {
               </div>
             </div>
           </section>
+
+          <section className="shop-area">
+            <div className="container mx-auto px-8">
+              <div className="row">
+                <div className="grid grid-cols-1">
+                  <div className="sectionarea text-center mb-9">
+                    <h5 className="sub-title text-[20px] font-normal text-[#d51243]">Follow On</h5>
+                    <h2 className="title text-[38px] font-bold text-[#040404]">
+                      <i class="fa-brands fa-instagram translate-y-0.5"></i>
+                      <span className="mx-2">ninico-shop</span>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <Slides />
+          </section>
         </div>
       </div>
+          <Footer />
     </div>
 
   )
