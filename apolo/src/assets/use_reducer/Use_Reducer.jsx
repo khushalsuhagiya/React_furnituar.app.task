@@ -14,9 +14,9 @@ const Use_Reducer = () => {
 
   return (
     <div>
-      <span className="button">{count}</span>
-      <button className="button" onClick={Increment}>+</button>
-      <button className="button" onClick={Decrement}>-</button>
+      <span className="btn">{count}</span>
+      <button className="btn" onClick={Increment}>+</button>
+      <button className="btn" onClick={Decrement}>-</button>
     </div>
   )
 }

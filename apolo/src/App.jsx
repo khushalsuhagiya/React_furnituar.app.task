@@ -9,12 +9,18 @@ import React, { useState } from 'react'
 // import  State_components from './assets/output/State_compument'
 // import Child_A from './assets/component/child_A'
 import Use_Reducer from './assets/use_reducer/Use_Reducer'
+import Use_Reducer2 from './assets/use_reducer/Use_Reducer2'
+import Use_Reducer3 from './assets/use_reducer/Use_Reducer3'
+import Use_Reducerex from './assets/use_reducer/Use_Reducerex'
 
 
 function App() {
   return (
     <>
-      <Use_Reducer/>
+      {/* <Use_Reducer/> */}
+      {/* <Use_Reducer2/> */}
+      {/* <Use_Reducer3/> */}
+      <Use_Reducerex/>
       
     </>
     )
