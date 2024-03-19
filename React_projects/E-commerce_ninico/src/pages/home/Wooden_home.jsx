@@ -3,7 +3,6 @@ import Welcome from '../../components/welcome/Welcome'
 import Search_navbar from '../../components/Search_navbar/Search_navbar'
 import Homenavbar from '../../components/Search_navbar/Homenavbar'
 import Footer from '../../components/Footer/Footer'
-
 import hello from '../../assets/asset 3.jpeg'
 import hi from '../../assets/asset 4.jpeg'
 import home from '../../assets/asset 5.jpeg'

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Search_navbar from "../../components/Search_navbar/Search_navbar";
 import shop from "../../assets/shop.jpg";
 import Popular_product from "../../components/Shop_ditails/Product_ditails";
@@ -24,13 +25,13 @@ const Shop = () => {
           backgroundSize: "cover",
         }}
       >
-        <div className="container mx-auto px-2">
+        <div className="container mx-auto px-8">
           <div className="row items-center">
             <div className="grid md:grid-cols-7">
               <div className="shop_content">
                 <div className="link mb-2 text-[16px]">
                   <span className="item_active relative font-normal pr-10 text-[#040404] after:absolute after:content-[''] after:h-[2px] after:w-[33px] after:bg-[#e4ded5] after:top-[50%] after:translate-x-[-50%] after:right-[-9px]">
-                    <a href="/">Home</a>
+                    <Link to='/' href="">Home</Link>
                   </span>
                   <span className="text-[#777]">Shop</span>
                   <h2 className="text-[44px] font-bold pt-1  font-mono">
@@ -46,7 +47,7 @@ const Shop = () => {
       {/*--------------- Filter area ---------------- */}
 
       <div className="filter_area pt-16 pb-5">
-        <div className="container mx-auto px-2">
+        <div className="container mx-auto px-8">
           <div className="row items-center">
             <div className="grid grid-cols-12">
               <div className="sm:col-span-6 col-span-12 ">
@@ -87,8 +88,8 @@ const Shop = () => {
 
       {/* product area filter */}
 
-      <section className="product_area pb-20 ">
-        <div className="container mx-auto px-2">
+      <section className="product_area pb-20">
+        <div className="container mx-auto px-8">
         <div className="row">
             <div className="grid  lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-3 xs:grid-cols-2 grid-cols-1  gap-2">
               <Popular_product/>

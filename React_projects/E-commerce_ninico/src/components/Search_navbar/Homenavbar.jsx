@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Homenavbar.css'
 import Categories, { Categories2 } from '../cetagories/Showcetagories'
+import { Link } from 'react-router-dom'
 
 function Homenavbar() {
     return (
@@ -15,13 +16,13 @@ function Homenavbar() {
                             <nav>
                                 <ul className="dropdown-home flex ml-10 py-3.5">
                                     <li className="drop-down  relative z-50">
-                                        <a
+                                        <Link to="/"
                                             href="#"
                                             className="hover:text-[#d51243]  transition ease-in-out font-semibold"
                                         >
                                             Home
                                             <i class="angel fa-solid fa-angle-down ms-1 hover:text-[#d51243]  transition ease-in-out text-gray-300 "></i>
-                                        </a>
+                                        </Link>
                                         <ul className="mt-3.5  rounded-b-xl border-2 border-t-[#d51243] text-base">
                                             <li className="px-5 py-2">
                                                 <a
@@ -75,12 +76,12 @@ function Homenavbar() {
                                         </a>
                                         <ul className="mt-3.5  rounded-b-xl border-2 border-t-[#d51243] text-base">
                                             <li className="px-5 py-2">
-                                                <a
+                                                <Link to="/shop"
                                                     href="#"
                                                     className="hover:text-[#d51243]  transition ease-in-out translate-x-6  "
                                                 >
                                                     Shop
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li className="px-5 py-2">
                                                 <a
@@ -304,13 +305,13 @@ export function Navbarclik() {
                             <nav>
                                 <ul className="dropdown-home flex ml-10 py-3.5">
                                     <li className="drop-down  relative z-50">
-                                        <a
+                                        <Link to="/"
                                             href="#"
                                             className="hover:text-[#d51243]  transition ease-in-out font-semibold"
                                         >
                                             Home
                                             <i class="angel fa-solid fa-angle-down ms-1 hover:text-[#d51243]  transition ease-in-out text-gray-300 "></i>
-                                        </a>
+                                        </Link>
                                         <ul className="mt-3.5  rounded-b-xl border-2 border-t-[#d51243] text-base">
                                             <li className="px-5 py-2">
                                                 <a

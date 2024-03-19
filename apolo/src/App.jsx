@@ -1,4 +1,9 @@
 import React, { useState } from 'react'
+import Counter from './assets/UseRef/UseExampal'
+import Stopwatch from './assets/UseRef/UseExampal2'
+// import Count from './assets/UseCallback/count'
+// import UseRef from './assets/UseRef/UseRef'
+// import Parent_Components from './assets/UseCallback/Parent_Components'
 // import Gallery1 from './assets/gallery/gallery1'
 // import Tamplet from './assets/tasktwo/tamplet'
 // import Rendering from './assets/Rendering/Rendering1'
@@ -8,20 +13,18 @@ import React, { useState } from 'react'
 // import {Use_Effect,Use_Effect_2,Use_Effect_3,Use_Effect_4,Use_Effect_5}from './assets/Events/UseEffect'
 // import  State_components from './assets/output/State_compument'
 // import Child_A from './assets/component/child_A'
-import Use_Reducer from './assets/use_reducer/Use_Reducer'
-import Use_Reducer2 from './assets/use_reducer/Use_Reducer2'
-import Use_Reducer3 from './assets/use_reducer/Use_Reducer3'
-import Use_Reducerex from './assets/use_reducer/Use_Reducerex'
+// import Use_Reducer from './assets/use_reducer/Use_Reducer'
+// import Use_Reducer2 from './assets/use_reducer/Use_Reducer2'
+// import Use_Reducer3 from './assets/use_reducer/Use_Reducer3'
+// import Use_Reducerex from './assets/use_reducer/Use_Reducerex'
 
 
 function App() {
   return (
     <>
-      {/* <Use_Reducer/> */}
-      {/* <Use_Reducer2/> */}
-      {/* <Use_Reducer3/> */}
-      <Use_Reducerex/>
-      
+      {/* <UseRef/> */}
+      <Counter/>
+      <Stopwatch/>
     </>
     )
   }
@@ -30,6 +33,35 @@ export default App
 
 
 
+
+// function App() {
+//   return (
+//     <>
+//       <Parent_Components/>
+//     </>
+//     )
+//   }
+
+// export default App
+
+
+
+
+
+
+// function App() {
+//   return (
+//     <>
+      {/* <Use_Reducer/> */}
+      {/* <Use_Reducer2/> */}
+      {/* <Use_Reducer3/> */}
+      {/* <Use_Reducerex/> */}
+      
+  //   </>
+  //   )
+  // }
+
+// export default App
 
 
 
