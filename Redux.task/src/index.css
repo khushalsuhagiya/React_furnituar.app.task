@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+ .btn{
+    @apply bg-red-500 p-2 mx-5 text-white font-semibold text-2xl border border-black
+ }
+}
+
+.name{
+    @apply bg-blue-600 p-2 mx-2
+}
+
+
+
+.Name{
+    @apply bg-green-500 p-2 mx-2
+}
