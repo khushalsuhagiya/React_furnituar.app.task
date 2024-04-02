@@ -17,21 +17,48 @@ import Stopwatch from './assets/UseRef/UseExampal2'
 // import Use_Reducer2 from './assets/use_reducer/Use_Reducer2'
 // import Use_Reducer3 from './assets/use_reducer/Use_Reducer3'
 // import Use_Reducerex from './assets/use_reducer/Use_Reducerex'
-import Store from './Reducx/store'
-import { Provider } from 'react-redux'
+// import Store from './Reducx/store'
+// import { Provider } from 'react-redux'
+
+
+
 
 function App() {
   return (
     <>
-    <Provider store={Store}>
-
-    </Provider>
+   
     </>
     )
   }
   
   export default App
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function App() {
+//   return (
+//     <>
+//     <Provider store={Store}>
+
+//     </Provider>
+//     </>
+//     )
+//   }
   
+//   export default App
+
   // {/* <UseRef/> */}
   // <Counter/>
   // <Stopwatch/>

@@ -16,20 +16,35 @@ import Stopwatch from './assets/UseRef/UseExampal2'
 // import Use_Reducer from './assets/use_reducer/Use_Reducer'
 // import Use_Reducer2 from './assets/use_reducer/Use_Reducer2'
 // import Use_Reducer3 from './assets/use_reducer/Use_Reducer3'
-// import Use_Reducerex from './assets/use_reducer/Use_Reducerex'
-
+import Use_Reducerex from './assets/use_reducer/Use_Reducerex'
+// import To_do from './assets/use_reducer/to_do'
 
 function App() {
   return (
     <>
-      {/* <UseRef/> */}
-      <Counter/>
-      <Stopwatch/>
-    </>
-    )
-  }
 
+      {/* <Use_Reducer/> */}
+      {/* <Use_Reducer2/> */}
+      {/* <Use_Reducer3/> */}
+      <Use_Reducerex/>
+      {/* <To_do/> */}
+      
+     </>
+     )
+   }
 export default App
+
+// function App() {
+//   return (
+//     <>
+      // {/* <UseRef/> */}
+      // {/* <Counter/> */}
+      // {/* <Stopwatch/> */} 
+//     </>
+//     )
+//   }
+
+// export default App
 
 
 
@@ -49,19 +64,6 @@ export default App
 
 
 
-// function App() {
-//   return (
-//     <>
-      {/* <Use_Reducer/> */}
-      {/* <Use_Reducer2/> */}
-      {/* <Use_Reducer3/> */}
-      {/* <Use_Reducerex/> */}
-      
-  //   </>
-  //   )
-  // }
-
-// export default App
 
 
 
